@@ -35,7 +35,7 @@ SBLT_API_EXPORT const char *MODULE_LICENCE_DECLARATION =
 // to it is fine too.
 //
 // NULL indicates a development version
-SBLT_API_EXPORT const char *MODULE_SOURCE_CODE_LOCATION = 0;
+SBLT_API_EXPORT const char* MODULE_SOURCE_CODE_LOCATION = "https://github.com/zxBori/Diesel3LightingFix";
 
 // Normally a string to uniquely identify the source code this module was built from, such as
 // a Mercurial tag name or or Git commit hash.
@@ -44,4 +44,4 @@ SBLT_API_EXPORT const char *MODULE_SOURCE_CODE_LOCATION = 0;
 // version control system, you can leave this at NULL. Filling it is greatly appreciated, though.
 // Alternatively, linking to a page with a list of hashes and versions so the user can find the version
 // of their binary works fine too.
-SBLT_API_EXPORT const char *MODULE_SOURCE_CODE_REVISION = 0;
+SBLT_API_EXPORT const char* MODULE_SOURCE_CODE_REVISION = "1.0.0";
