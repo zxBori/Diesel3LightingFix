@@ -10,8 +10,15 @@ The issue was reproduced on maps including:
 
 - No Mercy
 - Ukrainian Prisoner
+- Crude Awakening
+- ...
 
 This plugin fixes the affected D3D11 texture resource state so that lighting is rendered normally again.
+
+(update 26.11.19)
+The lighting issue has been observed specifically when the game starts with Texture Quality 'Medium'.
+Other texture quality settings appear unaffected in the tested environment.
+This plugin fixes the issue without requiring users to change their texture quality settings.
 
 ## Requirements
 
