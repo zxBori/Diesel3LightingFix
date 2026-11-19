@@ -16,7 +16,7 @@ SBLT_API_EXPORT void SuperBLT_Plugin_Setup(lua_access_func get_exposed_function)
 	// Load all our Lua functions
 	SBLT_LUA_INIT_FUNC_TABLE(get_exposed_function);
 
-	pd2_log_fn = (decltype(pd2_log_fn))get_exposed_function("raid_log");
+	pd2_log_fn = (decltype(pd2_log_fn))get_exposed_function("pd2_log");
 	is_active_state_fn = (decltype(is_active_state_fn))get_exposed_function("is_active_state");
 
 	Plugin_Init();
